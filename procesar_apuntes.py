@@ -342,7 +342,7 @@ def main():
         log.info("No hay clases pendientes.")
         return
 
-    print(f"\Hay {len(pendientes)} clase(s) pendiente(s):")
+    print(f"Hay {len(pendientes)} clase(s) pendiente(s):")
     for a in pendientes:
         print(f"  - {a['materia']} - Clase {a['n']}")
     if len(pendientes) > 15:
